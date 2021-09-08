@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.p-2 {
+    padding: 1rem;
+}
+
+.px-2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.py-1 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.px-auto {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.border-b {
+    border-bottom: 1px solid whitesmoke;
+}
+
+.border {
+    border: 1px solid whitesmoke;
+}
+
+.color-primary {
+    color: rgb(255,0,0);
+    color: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,133,64,1) 100%);
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.w-100 {
+    width: 100%;
+} 
+
+.text-center {
+    text-align: center;
+}
+
+.menu:hover, .menu.active {
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,133,64,1) 100%);
+    color: white;
+}
+
+.m-2 {
+    margin: 1rem;
+}
+
+.my-2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.main-section {
+    display: flex;
+    margin: 5rem;
+}
+
+.side-section {
+    padding: 5rem;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,133,64,1) 100%);
+    color: white
+}
+
+.side-section p {
+    line-height: 30px;
+}
+
+.footer {
+    background: #202124;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+#sdicamps-logo {
+    fill: red;
+}
